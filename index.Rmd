@@ -1,0 +1,15 @@
+---
+title: "Geospatial Data Science"
+description: |
+  **The Glasgow Geospatial Data Science Centre (GGC)** is a part of the **University of Glasgow**. We are keen to build strong relationships with world-leading academic and industrial partners, including Ordnance Survey, Uber, and the Alan Turing Institute. We are a growing team of researchers and are always on the look out for people with bold and exciting ideas to join us.
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
