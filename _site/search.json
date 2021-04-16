@@ -11,8 +11,8 @@
       "path": "contact.html",
       "title": "Contacts",
       "author": [],
-      "contents": "\nHours of Operation\nOur centre is available:  - Monday-Friday, 9:00-17:00 Local Time\nWhere to find us\nUniversity Avenue, Glasgow, G12 8QQ\nFind East Quadrangle\n\n\n\n",
-      "last_modified": "2021-04-16T22:15:09+01:00"
+      "contents": "\nHours of Operation\nOur centre is available:  - Monday-Friday, 9:00-17:00 Local Time\nWhere to find us\nUniversity Avenue, Glasgow, G12 8QQ\nFind East Quadrangle\n\n\n\n\n\n{\"x\":{\"access_token\":\"pk.eyJ1IjoiaHNoaW4xNyIsImEiOiJja2hoaTYxbnYwbmxmMnlvOW0xY2s2emYxIn0.ccMG4CeAL-kHoTRo45LvQg\",\"style\":\"mapbox://styles/mapbox/streets-v9\",\"pitch\":60,\"zoom\":14.1,\"location\":[-4.2896,55.8711],\"bearing\":15.9,\"max_zoom\":20,\"min_zoom\":0,\"max_pitch\":60,\"min_pitch\":0,\"show_view_state\":false,\"repeat_view\":false},\"evals\":[],\"jsHooks\":[]}\n\n\n\n",
+      "last_modified": "2021-04-16T22:43:54+01:00"
     },
     {
       "path": "index.html",

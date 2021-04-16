@@ -12,3 +12,21 @@ Our centre is available: <br>
 - University Avenue, Glasgow, G12 8QQ
 - Find East Quadrangle
 
+```{r, echo=F}
+library(httr)
+options(mapbox.accessToken = Sys.getenv("mapbox"))
+```
+
+```{r layout='l-screen', echo=F, fig.height=4, out.width='100%', fig.align='center'} 
+library(leaflet)
+#library(leaflet.mapboxgl)
+library(mapdeck)
+
+mapdeck(location = c(-4.2896, 55.8711),
+        bearing = 15.9,
+        zoom = 14.1,
+        pitch = 60) 
+
+```
+
+
