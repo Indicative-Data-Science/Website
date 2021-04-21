@@ -86,38 +86,38 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>Geospatial Data Science: Welcome to GGC</title>
+<title>Geospatial Data Science: gnssmapper: A new python package released</title>
 
-<meta property="description" itemprop="description" content="Welcome to our new blog, GGC. We hope you enjoy &#10;reading what we have to say!"/>
+<meta property="description" itemprop="description" content="gnssmapper: a new python package"/>
 
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2021-04-17"/>
-<meta property="article:created" itemprop="dateCreated" content="2021-04-17"/>
-<meta name="article:author" content="Nora Jones"/>
+<meta property="article:published" itemprop="datePublished" content="2021-03-04"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-03-04"/>
+<meta name="article:author" content="Hyesop Shin"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Geospatial Data Science: Welcome to GGC"/>
+<meta property="og:title" content="Geospatial Data Science: gnssmapper: A new python package released"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="Welcome to our new blog, GGC. We hope you enjoy &#10;reading what we have to say!"/>
+<meta property="og:description" content="gnssmapper: a new python package"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:site_name" content="Geospatial Data Science"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Geospatial Data Science: Welcome to GGC"/>
-<meta property="twitter:description" content="Welcome to our new blog, GGC. We hope you enjoy &#10;reading what we have to say!"/>
+<meta property="twitter:title" content="Geospatial Data Science: gnssmapper: A new python package released"/>
+<meta property="twitter:description" content="gnssmapper: a new python package"/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Welcome to GGC"]},{"type":"character","attributes":{},"value":["Welcome to our new blog, GGC. We hope you enjoy \nreading what we have to say!"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Nora Jones"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]},{"type":"character","attributes":{},"value":["Spacely Sprockets"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["04-17-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["gnssmapper: A new python package released"]},{"type":"character","attributes":{},"value":["gnssmapper: a new python package"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Hyesop Shin"]}]}]},{"type":"character","attributes":{},"value":["03-04-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["welcome_files/anchor-4.2.2/anchor.min.js","welcome_files/bowser-1.9.3/bowser.min.js","welcome_files/distill-2.2.21/template.v2.js","welcome_files/header-attrs-2.7/header-attrs.js","welcome_files/jquery-1.11.3/jquery.min.js","welcome_files/popper-2.6.0/popper.min.js","welcome_files/tippy-6.2.7/tippy-bundle.umd.min.js","welcome_files/tippy-6.2.7/tippy-light-border.css","welcome_files/tippy-6.2.7/tippy.css","welcome_files/tippy-6.2.7/tippy.umd.min.js","welcome_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["gnss_files/anchor-4.2.2/anchor.min.js","gnss_files/bowser-1.9.3/bowser.min.js","gnss_files/distill-2.2.21/template.v2.js","gnss_files/header-attrs-2.7/header-attrs.js","gnss_files/jquery-1.11.3/jquery.min.js","gnss_files/popper-2.6.0/popper.min.js","gnss_files/tippy-6.2.7/tippy-bundle.umd.min.js","gnss_files/tippy-6.2.7/tippy-light-border.css","gnss_files/tippy-6.2.7/tippy.css","gnss_files/tippy-6.2.7/tippy.umd.min.js","gnss_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2062,7 +2062,7 @@ document.addEventListener('DOMContentLoaded', function() {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Welcome to GGC","description":"Welcome to our new blog, GGC. We hope you enjoy \nreading what we have to say!","authors":[{"author":"Nora Jones","authorURL":"https://example.com/norajones","affiliation":"Spacely Sprockets","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2021-04-17T00:00:00.000+01:00","citationText":"Jones, 2021"}
+{"title":"gnssmapper: A new python package released","description":"gnssmapper: a new python package","authors":[{"author":"Hyesop Shin","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-03-04T00:00:00.000+00:00","citationText":"Shin, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2098,19 +2098,26 @@ About
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Welcome to GGC</h1>
+<h1>gnssmapper: A new python package released</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Welcome to our new blog, GGC. We hope you enjoy reading what we have to say!</p></p>
+<p><p>gnssmapper: a new python package</p></p>
 </div>
 
 <div class="d-byline">
-  Nora Jones <a href="https://example.com/norajones" class="uri">https://example.com/norajones</a> (Spacely Sprockets)<a href="https://example.com/spacelysprokets" class="uri">https://example.com/spacelysprokets</a>
+  Hyesop Shin  
   
-<br/>04-17-2021
+<br/>03-04-2021
 </div>
 
 <div class="d-article">
+<h2 id="gnssmapper-our-new-package-in-python">gnssmapper: our new package in <code>python</code></h2>
+<p>A few days ago, our team member Terry has release a python package <a href="https://pypi.org/project/gnssmapper/"><code>gnssmapper</code></a>. <code>gnssmapper</code> creates 3D maps from gnss (Global Navigation Satellite System) data via Andriod mobile devices. The package is written in python and relies on <a href="https://geopandas.org/">GeoPandas</a> objects.</p>
+<h2 id="what-does-it-do">What does it do?</h2>
+<p>The gnssmapper package: * reads ‘raw’ GNSS data from Google’s gnsslogger app, available for Android phones * processes data into a set of observations * estimates building heights based on the observations * simulates observations for algorithm testing</p>
+<p>Note: It does not include any functionality for processing GNSS data in order to estimate position, and assumes position data is available from the log file, or calculated elsewhere.</p>
+<h2 id="further-enquiries">Further enquiries</h2>
+<p>For further enquiries, please contact Terry (<a href="mailto:terence.lines@glasgow.ac.uk" class="email">terence.lines@glasgow.ac.uk</a>).</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

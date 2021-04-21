@@ -1,19 +1,36 @@
 [
   {
-    "path": "news/2021-04-21-migrating-to-our-new-webpage/",
-    "title": "Migrating to our new webpage",
-    "description": "A short description of the post.",
+    "path": "news/2021-04-21-ana-on-youtube/",
+    "title": "Ana on Youtube",
+    "description": "Ana on a stand up comedy club!",
     "author": [
       {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
+        "name": "Hyesop Shin",
+        "url": {}
       }
     ],
-    "date": "2021-04-21",
+    "date": "2021-04-16",
     "categories": [],
-    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "contents": "\nAna has been on The Turing Institute Cabaret of Dangerous Ideas, a stand up comedy club!\n\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-21T10:40:32+01:00",
+    "last_modified": "2021-04-21T22:20:11+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "news/2021-04-21-gnss/",
+    "title": "gnssmapper: A new python package released",
+    "description": "gnssmapper: a new python package",
+    "author": [
+      {
+        "name": "Hyesop Shin",
+        "url": {}
+      }
+    ],
+    "date": "2021-03-04",
+    "categories": [],
+    "contents": "\ngnssmapper: our new package in python\nA few days ago, our team member Terry has release a python package gnssmapper. gnssmapper creates 3D maps from gnss (Global Navigation Satellite System) data via Andriod mobile devices. The package is written in python and relies on GeoPandas objects.\nWhat does it do?\nThe gnssmapper package: * reads ‘raw’ GNSS data from Google’s gnsslogger app, available for Android phones * processes data into a set of observations * estimates building heights based on the observations * simulates observations for algorithm testing\nNote: It does not include any functionality for processing GNSS data in order to estimate position, and assumes position data is available from the log file, or calculated elsewhere.\nFurther enquiries\nFor further enquiries, please contact Terry (terence.lines@glasgow.ac.uk).\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-21T22:13:55+01:00",
     "input_file": {}
   }
 ]

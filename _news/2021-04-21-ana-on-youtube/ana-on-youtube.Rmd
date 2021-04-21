@@ -1,0 +1,16 @@
+---
+title: "Ana on Youtube"
+description: |
+  Ana on a stand up comedy club!
+slug: ana-on-youtube
+author:
+  - name: Hyesop Shin
+date: 04-16-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Ana has been on **The Turing Institute Cabaret of Dangerous Ideas**, a stand up comedy club!
+
+<iframe width="504" height="378" src="https://www.youtube.com/embed/reOMyLafUVY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

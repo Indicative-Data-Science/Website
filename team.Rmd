@@ -1,18 +1,60 @@
 ---
 title: "Our Members"
 description: |
-site: distill::distill_article
+output:
+  distill::distill_article:
+    toc: true
+    toc_depth: 3
 ---
 
+## Principal Investigator
 ### Professor Ana Basiri
-```{r out.width = "20%", echo=F, fig.align='center'}
+```{r out.width = "30%", echo=F, fig.align='center'}
 knitr::include_graphics("img/ana.png")
 ```
 
 `r emo::ji("e-mail")`: Ana.Basiri@glasgow.ac.uk <br>
-`r emo::ji("bird")`: Twitter [AnahidBasiri](https://twitter.com/AnahidBasiri)
+`r emo::ji("bird")`: [AnahidBasiri](https://twitter.com/AnahidBasiri)
 
 
-Ana started the Indicative Data Science lab in 2018, and has moved to Glasgow in 2020 to initiate the Glasgow Data Science Centre.
+Ana started to run her lab in 2018 at UCL (Indicative Data Science), and has moved to Glasgow in 2020 to initiate the Glasgow Data Science Centre.
 
 Ana leads works on developing (theoretical and applied) solutions to the challenges of 'new forms of data' such as missingness and biases. These solutions are based on the mindset that considers the bias, missingness, or low quality as a useful source of data to make inference about the underlying reasons for the missingness and bias. One application of this is extracting the 3D map of cities using the patterns of blockage, reflection, and attenuation of the GPS signals (or other similar signals), that are contributed by the volunteers/crowd.
+
+
+
+## Researchers
+### Mr. Terrence Lines
+```{r out.width = "30%", echo=F, fig.align='center'}
+knitr::include_graphics("img/terry.png")
+```
+
+`r emo::ji("e-mail")`: Terrence.Lines@glasgow.ac.uk <br>
+`r emo::ji("bird")`: [lines_terry](https://twitter.com/lines_terry)
+
+
+Terence Lines joined our team in 2018.
+
+Terry's research interests are the use of low quality spatial data for inference about urban environments. Many new forms of data are crowdsourced or automatically collected without controls on quality. Both theoretical and applied methods are required in order to measure uncertainty and make inferences. In particular, Terry is interested in techniques to combine overlapping poor quality but independent data sources to investigate the environmental processes leading to data creation through the use of statistical models and weakly-supervised machine learning techniques.
+
+
+
+
+### Dr. Hyesop Shin
+```{r out.width = "30%", echo=F, fig.align='center'}
+knitr::include_graphics("img/hyesop.png")
+```
+
+`r emo::ji("e-mail")`: Hyesop.Shin@glasgow.ac.uk <br>
+`r emo::ji("bird")`: [hyesop](https://twitter.com/hyesop)
+
+
+Hyesop Shin joined our team in 2020.
+
+Hyesop is a quantitative geographer interested in themes including environmental hazards, urban air quality, individual mobility patterns, which are likely to be real-world problems. To tackle these issues, Hyesop applies methods including GIScience and agent-based modelling (ABM). Prior to joining Glasgow, Hyesop completed his PhD at the University of Cambridge where he looked at how individuals exposure to air pollution can differ by commuting routes and socioeconomic backgrounds using an agent-based simulation. At Glasgow, Hyesop's current project unravels the benefits of using crowdsourcing to help improve our understanding of locational services for the under-represented groups.
+
+
+
+
+## Ph.D Students
+

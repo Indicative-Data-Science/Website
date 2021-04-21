@@ -1,0 +1,28 @@
+---
+title: "gnssmapper: A new python package released"
+description: |
+  gnssmapper: a new python package
+author:
+  - name: Hyesop Shin
+date: 03-04-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+## gnssmapper: our new package in `python`
+
+A few days ago, our team member Terry has release a python package [`gnssmapper`](https://pypi.org/project/gnssmapper/).
+`gnssmapper` creates 3D maps from gnss (Global Navigation Satellite System) data via Andriod mobile devices. The package is written in python and relies on [GeoPandas](https://geopandas.org/) objects.
+
+## What does it do?
+The gnssmapper package:
+* reads 'raw' GNSS data from Google's gnsslogger app, available for Android phones
+* processes data into a set of observations
+* estimates building heights based on the observations
+* simulates observations for algorithm testing
+
+Note: It does not include any functionality for processing GNSS data in order to estimate position, and assumes position data is available from the log file, or calculated elsewhere.
+
+## Further enquiries
+For further enquiries, please contact Terry (terence.lines@glasgow.ac.uk).

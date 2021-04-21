@@ -1,9 +1,9 @@
 ---
-title: "Blog"
-description: |
-  blog
+title: ""
 site: distill::distill_website
 listing: posts
 ---
+
+# Blog: Share your Thoughts!
 
 
