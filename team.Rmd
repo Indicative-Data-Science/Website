@@ -1,0 +1,18 @@
+---
+title: "Our Members"
+description: |
+site: distill::distill_article
+---
+
+### Professor Ana Basiri
+```{r out.width = "20%", echo=F, fig.align='center'}
+knitr::include_graphics("img/ana.png")
+```
+
+`r emo::ji("e-mail")`: Ana.Basiri@glasgow.ac.uk <br>
+`r emo::ji("bird")`: Twitter [AnahidBasiri](https://twitter.com/AnahidBasiri)
+
+
+Ana started the Indicative Data Science lab in 2018, and has moved to Glasgow in 2020 to initiate the Glasgow Data Science Centre.
+
+Ana leads works on developing (theoretical and applied) solutions to the challenges of 'new forms of data' such as missingness and biases. These solutions are based on the mindset that considers the bias, missingness, or low quality as a useful source of data to make inference about the underlying reasons for the missingness and bias. One application of this is extracting the 3D map of cities using the patterns of blockage, reflection, and attenuation of the GPS signals (or other similar signals), that are contributed by the volunteers/crowd.

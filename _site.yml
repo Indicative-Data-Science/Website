@@ -12,7 +12,7 @@ navbar:
         - text: "Our Centre"
           href: about.html
         - text: "Our Team"
-        #href: team.html
+          href: team.html
     - text: "News"  
       #href: news.html
     - text: "Blog"

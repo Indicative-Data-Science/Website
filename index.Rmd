@@ -1,7 +1,7 @@
 ---
 title: "Geospatial Data Science"
 description: |
-  **The Glasgow Geospatial Data Science Centre (GGC)** is a part of the **University of Glasgow**. We are keen to build strong relationships with world-leading academic and industrial partners, including Ordnance Survey, Uber, and the Alan Turing Institute. We are a growing team of researchers and are always on the look out for people with bold and exciting ideas to join us.
+  "Data From The Absence Of Data"
 site: distill::distill_website
 ---
 
@@ -11,5 +11,23 @@ knitr::opts_chunk$set(echo = FALSE)
 # Learn more about creating websites with Distill at:
 # https://rstudio.github.io/distill/website.html
 
+```
+
+**The Glasgow Geospatial Data Science Centre (GGC)** is a part of the **University of Glasgow**. We are keen to build strong relationships with world-leading academic and industrial partners, including Ordnance Survey, Uber, and the Alan Turing Institute. We are a growing team of researchers and are always on the look out for people with bold and exciting ideas to join us.
+
+<br><br>
+
+![](img/banner.png)
+
+
+<!-- Add footnote: funding partners -->
+```{r, echo=F, eval=F, include=F, out.width='100%'}
+library(png)
+library(grid)
+library(gridExtra)
+img1 <-  rasterGrob(as.raster(readPNG("img/uog.png")), interpolate = FALSE)
+img2 <-  rasterGrob(as.raster(readPNG("img/ukri.png")), interpolate = FALSE)
+img3 <-  rasterGrob(as.raster(readPNG("img/turing.png")), interpolate = FALSE)
+grid.arrange(img1, img2, img3, ncol = 3)
 ```
 
