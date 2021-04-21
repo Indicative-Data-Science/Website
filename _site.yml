@@ -14,7 +14,7 @@ navbar:
         - text: "Our Team"
           href: team.html
     - text: "News"  
-      #href: news.html
+      href: news.html
     - text: "Blog"
       href: blog.html  
     - text: "Contact"

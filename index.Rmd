@@ -17,6 +17,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 <br><br>
 
+<center>**Our Funding Partners**</center>
+
 ![](img/banner.png)
 
 

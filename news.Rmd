@@ -1,6 +1,7 @@
 ---
 title: "News and Events"
 description: |
+  Here we put news and events that are relevant to our team or our research of interest
 site: distill::distill_website
 listing: news
 ---
