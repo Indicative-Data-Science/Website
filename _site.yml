@@ -1,7 +1,7 @@
 name: "Glasgow Geospatial Data Science"
-title: "Geospatial Data Science"
+title: "Glasgow Geospatial Data Science"
 description: |
-  Geospatial Data Science
+  Welcome to the Geospatial Data Science Centre at Glasgow
 output_dir: "_site"
 navbar:
   right:

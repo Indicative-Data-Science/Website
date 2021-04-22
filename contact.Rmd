@@ -3,14 +3,20 @@ title: "Contacts"
 description: | 
 ---
 
-## Hours of Operation
+### How
+Please contact Ana via her email Ana.Basiri@glasgow.ac.uk to discuss collborations, phd opportunities, and new ideas.
+If she is on leave, please contact Hyesop Hyesop.Shin@glasgow.ac.uk.
+ 
+
+### Hours of Operation
 Our centre is available: <br>
-- **Monday-Friday**, 9:00-17:00 Local Time
+- Monday-Friday, 9:00-17:00 Local Time
 
 
-## Where to find us
+### Where to find us
 - University Avenue, Glasgow, G12 8QQ
-- Find East Quadrangle
+- Find East Quadrangle when you arrive in front of the building.
+- However, most of us are working remotely during the difficult times, so it would be best for you to contact by emails.
 
 ```{r, echo=F}
 library(httr)
