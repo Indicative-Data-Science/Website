@@ -86,29 +86,26 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Glasgow Geospatial Data Science: News</title>
+  <title>Glasgow Geospatial Data Science: Glasgow Geospatial Data Science Centre</title>
 
-  <meta property="description" itemprop="description" content="&quot;Data From The Absence Of Data&quot;"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Glasgow Geospatial Data Science: News"/>
+  <meta property="og:title" content="Glasgow Geospatial Data Science: Glasgow Geospatial Data Science Centre"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="&quot;Data From The Absence Of Data&quot;"/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Glasgow Geospatial Data Science"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Glasgow Geospatial Data Science: News"/>
-  <meta property="twitter:description" content="&quot;Data From The Absence Of Data&quot;"/>
+  <meta property="twitter:title" content="Glasgow Geospatial Data Science: Glasgow Geospatial Data Science Centre"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","site","listing"]}},"value":[{"type":"character","attributes":{},"value":["News"]},{"type":"character","attributes":{},"value":["\"Data From The Absence Of Data\"\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["news"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","layout"]}},"value":[{"type":"character","attributes":{},"value":["Glasgow Geospatial Data Science Centre"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["landing-page"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2048,12 +2045,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body class="layout-listing">
+<body class="layout-landing-page">
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"News","description":"\"Data From The Absence Of Data\"","authors":[]}
+{"title":"Glasgow Geospatial Data Science Centre","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2066,15 +2063,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </div>
 <div class="nav-right">
 <a href="index.html">Home</a>
+<a href="team.html">Members</a>
 <div class="nav-dropdown">
 <button class="nav-dropbtn">
-About
+Research
  
 <span class="down-arrow">&#x25BE;</span>
 </button>
 <div class="nav-dropdown-content">
-<a href="about.html">Our Centre</a>
-<a href="team.html">Our Team</a>
+<span class="nav-dropdown-header">Projects:Funded</span>
+<span class="nav-dropdown-header">Projects:PhD</span>
 </div>
 </div>
 <a href="news.html">News</a>
@@ -2087,194 +2085,19 @@ About
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="News">News</h1>
-<a href="news/2021-04-21-ana-on-youtube/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">April 16, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Hyesop Shin</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Ana on Youtube</h2>
-<div class="dt-tags"></div>
-<p>Ana on a stand up comedy club!</p>
-</div>
-</a>
-<a href="news/2021-04-21-gnss/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">March 4, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Hyesop Shin</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>gnssmapper: A new python package released</h2>
-<div class="dt-tags"></div>
-<p>gnssmapper: a new python package</p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>News</h1>
+<h1>Glasgow Geospatial Data Science Centre</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>“Data From The Absence Of Data”</p></p>
+
 </div>
 
 
 <div class="d-article">
-<p><br><br></p>
-<h1 id="the-glasgow-geospatial-data-science-centre">The Glasgow Geospatial Data Science Centre</h1>
-<p><strong>The Glasgow Geospatial Data Science Centre (GGC)</strong> is a part of the <strong>University of Glasgow</strong>. We are keen to build strong relationships with world-leading academic and industrial partners, including Ordnance Survey, Uber, and the Alan Turing Institute. We are a growing team of researchers and are always on the look out for people with bold and exciting ideas to join us.</p>
+<p><strong>The Glasgow Geospatial Data Science Centre (GGDS)</strong> is a part of the <strong>University of Glasgow</strong>. We are keen to build strong relationships with world-leading academic and industrial partners, including Ordnance Survey, Uber, and the Alan Turing Institute. We are a growing team of researchers and are always on the look out for people with bold and exciting ideas to join us.</p>
+<p>The Glasgow Geospatial Data Science Centre (GGDS) specializes in innovative research to support the healthcare and biotech industries. We are interested in advancing research in areas that are pressing and relevant to the health and biotech industries and regularly develop new projects and collaborations to accomplish this goal. We are currently engaged in a variety of ongoing projects within the areas of mental health, data analysis, knowledge translation, and cluster research.</p>
+<p>Students at the centre get to learn from leaders in the biotech industy, as well as get access to cutting edge projects and technologies to further their learning endeavours.</p>
 <p><br><br></p>
 <center>
 <strong>Our Funding Partners</strong>

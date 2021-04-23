@@ -7,12 +7,14 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "About"  
+    - text: "Members"
+      href: team.html
+    - text: "Research"  
       menu:
-        - text: "Our Centre"
-          href: about.html
-        - text: "Our Team"
-          href: team.html
+        - text: "Projects:Funded"
+          #href: about.html
+        - text: "Projects:PhD"
+          #href: team.html
     - text: "News"  
       href: news.html
     - text: "Blog"

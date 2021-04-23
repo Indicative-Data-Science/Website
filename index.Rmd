@@ -1,15 +1,15 @@
 ---
-title: "News"
-description: |
-  "Data From The Absence Of Data"
+title: "Glasgow Geospatial Data Science Centre"
 site: distill::distill_website
-listing: news
+layout: landing-page
+#listing: news
 ---
-<br><br>
 
-# The Glasgow Geospatial Data Science Centre
+**The Glasgow Geospatial Data Science Centre (GGDS)** is a part of the **University of Glasgow**. We are keen to build strong relationships with world-leading academic and industrial partners, including Ordnance Survey, Uber, and the Alan Turing Institute. We are a growing team of researchers and are always on the look out for people with bold and exciting ideas to join us.
 
-**The Glasgow Geospatial Data Science Centre (GGC)** is a part of the **University of Glasgow**. We are keen to build strong relationships with world-leading academic and industrial partners, including Ordnance Survey, Uber, and the Alan Turing Institute. We are a growing team of researchers and are always on the look out for people with bold and exciting ideas to join us.
+The Glasgow Geospatial Data Science Centre (GGDS) specializes in innovative research to support the healthcare and biotech industries. We are interested in advancing research in areas that are pressing and relevant to the health and biotech industries and regularly develop new projects and collaborations to accomplish this goal. We are currently engaged in a variety of ongoing projects within the areas of mental health, data analysis, knowledge translation, and cluster research.
+
+Students at the centre get to learn from leaders in the biotech industy, as well as get access to cutting edge projects and technologies to further their learning endeavours.
 
 <br><br>
 
