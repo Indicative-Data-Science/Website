@@ -15,7 +15,9 @@ knitr::include_graphics("img/ana.png")
 
 `r emo::ji("e-mail")`: Ana.Basiri@glasgow.ac.uk <br>
 `r emo::ji("bird")`: [AnahidBasiri](https://twitter.com/AnahidBasiri) <br>
-`r emo::ji("building")`: [University Page](https://www.gla.ac.uk/schools/ges/staff/anabasiri/)
+`r emo::ji("building")`: <a href="https://www.gla.ac.uk/schools/ges/staff/anabasiri" target="_blank">University Page</a>
+
+
 
 Ana started to run her lab in 2018 at UCL (Indicative Data Science), and has moved to Glasgow in 2020 to initiate the Glasgow Data Science Centre.
 
@@ -31,7 +33,7 @@ knitr::include_graphics("img/terry.png")
 
 `r emo::ji("e-mail")`: Terrence.Lines@glasgow.ac.uk <br>
 `r emo::ji("bird")`: [lines_terry](https://twitter.com/lines_terry) <br>
-`r emo::ji("building")`: [University Page](https://www.gla.ac.uk/schools/ges/staff/terencelines/)
+`r emo::ji("building")`: <a href="https://www.gla.ac.uk/schools/ges/staff/terencelines" target="_blank">University Page</a>
 
 Terence Lines joined our team in 2018.
 
@@ -47,7 +49,7 @@ knitr::include_graphics("img/hyesop.png")
 
 `r emo::ji("e-mail")`: Hyesop.Shin@glasgow.ac.uk <br>
 `r emo::ji("bird")`: [hyesop](https://twitter.com/hyesop) <br>
-`r emo::ji("building")`: [University Page](https://www.gla.ac.uk/schools/ges/staff/hyesopshin/)
+`r emo::ji("building")`: <a href="https://www.gla.ac.uk/schools/ges/staff/hyesopshin" target="_blank">University Page</a>
 
 
 Hyesop Shin joined our team in 2020.
