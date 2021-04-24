@@ -7,7 +7,7 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Members"
+    - text: "People"
       href: team.html
     - text: "Research"  
       menu:
@@ -15,8 +15,8 @@ navbar:
           #href: about.html
         - text: "Projects:Ph.D"
           #href: team.html
-    - text: "Publications"  
-      #href: news.html
+        - text: "Publications"  
+          #href: news.html
     - text: "News"
       href: news.html
     - text: "Blog"
