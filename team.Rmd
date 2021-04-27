@@ -18,7 +18,7 @@ knitr::include_graphics("img/ana.png")
 `r emo::ji("building")`: <a href="https://www.gla.ac.uk/schools/ges/staff/anabasiri" target="_blank">University Page</a>
 
 
-
+**Bio**: <br>
 Ana started to run her lab in 2018 at UCL (Indicative Data Science), and has moved to Glasgow in 2020 to initiate the Glasgow Data Science Centre.
 
 Ana leads works on developing (theoretical and applied) solutions to the challenges of 'new forms of data' such as missingness and biases. These solutions are based on the mindset that considers the bias, missingness, or low quality as a useful source of data to make inference about the underlying reasons for the missingness and bias. One application of this is extracting the 3D map of cities using the patterns of blockage, reflection, and attenuation of the GPS signals (or other similar signals), that are contributed by the volunteers/crowd.
@@ -35,6 +35,8 @@ knitr::include_graphics("img/terry.png")
 `r emo::ji("bird")`: [lines_terry](https://twitter.com/lines_terry) <br>
 `r emo::ji("building")`: <a href="https://www.gla.ac.uk/schools/ges/staff/terencelines" target="_blank">University Page</a>
 
+
+**Bio**: <br>
 Terence Lines joined our team in 2018.
 
 Terry's research interests are the use of low quality spatial data for inference about urban environments. Many new forms of data are crowdsourced or automatically collected without controls on quality. Both theoretical and applied methods are required in order to measure uncertainty and make inferences. In particular, Terry is interested in techniques to combine overlapping poor quality but independent data sources to investigate the environmental processes leading to data creation through the use of statistical models and weakly-supervised machine learning techniques.
@@ -51,7 +53,7 @@ knitr::include_graphics("img/hyesop.png")
 `r emo::ji("bird")`: [hyesop](https://twitter.com/hyesop) <br>
 `r emo::ji("building")`: <a href="https://www.gla.ac.uk/schools/ges/staff/hyesopshin" target="_blank">University Page</a>
 
-
+**Bio**: <br>
 Hyesop Shin joined our team in 2020.
 
 Hyesop is a quantitative geographer interested in themes including environmental hazards, urban air quality, individual mobility patterns, which are likely to be real-world problems. To tackle these issues, Hyesop applies methods including GIScience and agent-based modelling (ABM). Prior to joining Glasgow, Hyesop completed his PhD at the University of Cambridge where he looked at how individuals exposure to air pollution can differ by commuting routes and socioeconomic backgrounds using an agent-based simulation. At Glasgow, Hyesop's current project unravels the benefits of using crowdsourcing to help improve our understanding of locational services for the under-represented groups.
@@ -60,4 +62,22 @@ Hyesop is a quantitative geographer interested in themes including environmental
 
 
 ## Ph.D Students
+### Ms. Dining Liu
+```{r out.width = "30%", echo=F, fig.align='center'}
+knitr::include_graphics("img/diningliu.png")
+```
+
+`r emo::ji("e-mail")`:  <br>
+`r emo::ji("bird")`:  <br>
+`r emo::ji("building")`: <a href="https://www.ucl.ac.uk/bartlett/casa/dining-liu" target="_blank">University Page</a> <br>
+Thesis Title: Capturing Human Behaviour and Interaction in Public Open Space with 2D LiDAR Sensors <br>
+Primary Supervisor: Prof. Ana Basiri
+
+**Bio**: <br>
+Dining started her Ph.D research at The Bartlett Centre for Advanced Spatial Analysis (CASA), UCL in 2019.
+
+
+Dining got her Bachelor of Engineering in Landscape Architecture from Beijing Forestry University (BFU) and later obtained her Master of Landscape Architecture and Graduate Certificate in Geographic Information Science and Technology from University of California, Berkeley (UC Berkeley). While pursuing her postgraduate degree, she worked as a part-time landscape designer in Office of Cheryl Barton, San Francisco, participating in renowned cultural projects and large-scale campus design. She also worked as a research data analyst at UC Berkeley and a research & teaching assistant at the University of Hong Kong (HKU). She is interested in using geospatial technology to better understand the urban landscape and built environment from a humanistic perspective, engaging communities and citizens into the planning and design process for urban sustainable development. Dining is also working as a project coordinator at MIT HK Innovation node in Hong Kong investigating how design and use of innovative technologies can promote social equity. She is responsible for creating and maintaining comprehensive action plans and reports to find opportunities and spaces for the vulnerable groups. 
+
+
 
