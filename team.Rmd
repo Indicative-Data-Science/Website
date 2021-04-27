@@ -81,3 +81,18 @@ Dining got her Bachelor of Engineering in Landscape Architecture from Beijing Fo
 
 
 
+### Mr. Petrus J. Gerrits (Piet)
+```{r out.width = "30%", echo=F, fig.align='center'}
+knitr::include_graphics("img/piet.png")
+```
+
+`r emo::ji("e-mail")`: 2628709g@student.gla.ac.uk <br>
+`r emo::ji("bird")`:  [gerritspj](https://twitter.com/gerritspj) <br>
+`r emo::ji("building")`: <!--<a href="https://www.ucl.ac.uk/bartlett/casa/dining-liu" target="_blank">University Page</a> <br>-->
+Thesis Title: Geo-demographic Dynamics of Settlements Using Historical Maps <br>
+Primary Supervisor: Prof. Ana Basiri
+
+**Bio**: <br>
+Piet joined our team in January 2021.
+
+Piet Gerrits received his undergraduate degree in (Landscape-)Archaeology with a specialization in GIS at the Vrije Universiteit, Amsterdam. He gained an interest in Geospatial Applications for Humanities during his graduate studies at Koç University (MA 2018). Currently, he is pursuing a Ph.D. in Geospatial Data Science at the University of Glasgow, interested and focused on long-term settlement and population changes in border areas, using quantitative computational research methods.

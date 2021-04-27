@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\nAna has been on The Turing Institute Cabaret of Dangerous Ideas, a stand up comedy club!\n\n\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-27T14:33:25+01:00",
+    "last_modified": "2021-04-21T22:20:11+01:00",
     "input_file": {}
   },
   {
@@ -30,7 +30,7 @@
     "categories": [],
     "contents": "\ngnssmapper: our new package in python\nA few days ago, our team member Terry has release a python package gnssmapper. gnssmapper creates 3D maps from gnss (Global Navigation Satellite System) data via Andriod mobile devices. The package is written in python and relies on GeoPandas objects.\nWhat does it do?\nThe gnssmapper package: * reads ‘raw’ GNSS data from Google’s gnsslogger app, available for Android phones * processes data into a set of observations * estimates building heights based on the observations * simulates observations for algorithm testing\nNote: It does not include any functionality for processing GNSS data in order to estimate position, and assumes position data is available from the log file, or calculated elsewhere.\nFurther enquiries\nFor further enquiries, please contact Terry (terence.lines@glasgow.ac.uk).\n\n\n\n",
     "preview": {},
-    "last_modified": "2021-04-27T14:33:25+01:00",
+    "last_modified": "2021-04-21T22:13:55+01:00",
     "input_file": {}
   }
 ]

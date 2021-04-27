@@ -23,11 +23,9 @@ Want to know something cool? If you have a Android smartphone you can create a *
 
 
 ```{r, echo=F, fig.align='center', fig.cap="example 3D map", out.width = '30%'}
-knitr::include_graphics("gnss.png")
+knitr::include_graphics("https://user-images.githubusercontent.com/43879942/116072219-bbb59480-a686-11eb-9d66-828b84286365.png")
 ```
 
-
-<!--![example 3D map](https://user-images.githubusercontent.com/43879942/116072219-bbb59480-a686-11eb-9d66-828b84286365.png)-->
 
 What would be stopping you (because of course that's something you'd want to do)? Well, I guess for most people, the problem is that creating the map would require some working knowledge of all the below: <br>
 1) GNSS systems <br>
