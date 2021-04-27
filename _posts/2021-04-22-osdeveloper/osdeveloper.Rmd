@@ -1,0 +1,53 @@
+---
+title: "How to detect 3D buildings using GNSS data: An Ordnancy Survey Blog"
+author:
+  - name: Terrence Lines
+    url:
+      https://www.gla.ac.uk/schools/ges/staff/terencelines/: {}
+date: 04-22-2021
+categories:
+  - GNSS-Mapping
+tags:
+  - Ordnance-Survey
+  - Developer
+output:
+  distill::distill_article:
+    self_contained: true
+---
+
+
+Ordnance Survey
+=================
+Ordnance Survey, the UK's mapping agency, is a partner on our project to explore new techniques to build 3D maps of towns and cities. We explain how their expanded abilities to provide mapping data helps our project.
+
+Our team at the University of Glasgow researches cutting-edge approaches to utilising geospatial data. With modern big data, often the data that you are missing is as important as the data you have. For example, we’re using missing GPS signals to build 3D maps of cities.
+
+Background
+----------
+
+![using gps devices](https://user-images.githubusercontent.com/25252172/116252249-4cfc3800-a767-11eb-9abe-de3b28821323.jpg)
+Photo: ©GSA, ©European GNSS Agency.
+
+
+Modern phones use GPS signals to position themselves, receiving signals from many orbiting satellites. Only a few satellites are used to calculate your position, with the additional satellites needed to provide redundancy as their signals can be easily blocked. These blockages are caused by obstacles such as buildings. By analysing the patterns of blockages from many phones, we are able to generate 3D maps using only the data that your phone was already collecting. These 3D maps are useful for many things, including helping your phone estimate location with more accuracy.
+
+We hope this approach can replace and/or complement current methods of building 3D maps which use LIDAR or aerial photos, as the cost of these approaches can be significant when repeated often enough to keep maps up to date.
+
+We’re developing different algorithms to see how they perform, and OS data is invaluable in the process. The performance of algorithms can be improved by starting with an accurate 2D map, and **OS MasterMap** is the definitive vector map of Great Britain which we can access under licence for academic research through EDINA's Digimap service. Of particular use to us is OS MasterMap’s building height attribute dataset. We use it as a benchmark to measure the relative accuracy of our algorithm results.
+
+![satellites](https://user-images.githubusercontent.com/25252172/116252759-c5fb8f80-a767-11eb-8054-cab848115bc3.jpg)
+Photo: ©GSA, ©European GNSS Agency.
+
+
+How it works
+------------
+
+Starting from a 2D building footprint provided by OS MasterMap Topography Layer, we select all the GPS signals that cross the footprint and calculate the height at which they intersect the building. This includes all of the missing signals where the satellite should have been visible but no signal was detected. We then use machine learning algorithms to estimate the height of the building from the signal patterns.
+
+OS Data Hub
+-----------
+For our pilot studies, we’ve been able to download and process the supporting information on an ad-hoc basis, but to scale up map production we’ll be releasing an crowdsourcing (also known as VGI or Volunteered Geographic Information) app. This is where people allow their data to be used for scientific purposes from which everyone can benefit, like a 3D map.
+
+As people travel and share their data with us, we will then need to be able to automatically access data from OS about their 2D surroundings. This could be across a huge range of locations and scales that we won’t know beforehand, for example perhaps the signal blockage is due to a building close-by or a taller building further away. The OS Data Hub is ideal for this, as we can access the necessary information quickly and accurately without needing to host or maintain it. As well as using OS MasterMap information internally for our algorithms, we hope to use our results and the OS OpenData APIs in our app to generate a 3D representation. This would enable users to see a 3D map in real time and how their information is helping to improve it.
+
+*A version of this article originally appeared [here](https://www.ordnancesurvey.co.uk/newsroom/blog/indicative-data-science)*
