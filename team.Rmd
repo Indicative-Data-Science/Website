@@ -96,3 +96,24 @@ Primary Supervisor: Prof. Ana Basiri
 Piet joined our team in January 2021.
 
 Piet Gerrits received his undergraduate degree in (Landscape-)Archaeology with a specialization in GIS at the Vrije Universiteit, Amsterdam. He gained an interest in Geospatial Applications for Humanities during his graduate studies at Koç University (MA 2018). Currently, he is pursuing a Ph.D. in Geospatial Data Science at the University of Glasgow, interested and focused on long-term settlement and population changes in border areas, using quantitative computational research methods.
+
+
+
+### Ms. Melda Salhab
+```{r out.width = "30%", echo=F, fig.align='center'}
+knitr::include_graphics("img/melda.png")
+```
+
+`r emo::ji("e-mail")`: melda.salhab.14@ucl.ac.uk <br>
+`r emo::ji("bird")`:  [MeldaSalhab](https://twitter.com/MeldaSalhab) <br>
+`r emo::ji("building")`: [LinkedIn](https://www.linkedin.com/in/meldasalhab/) <br>
+`r emo::ji("building")`: <a href="https://www.ucl.ac.uk/bartlett/casa/melda-salhab" target="_blank">University Page</a> <br>
+Thesis Title: Land Cover Mapping-as-a-Service (LC-MaaS): Automatic and Ubiquitous Land Cover Map Generation <br>
+Primary Supervisor: Prof. Ana Basiri
+
+**Bio**: <br>
+Melda joined our team in 2019.
+
+Melda is currently a doctoral researcher at the Centre for Advanced Spatial Analysis, UCL, London. Her research is focused on extracting economic insights from satellite imagery and crowdsourced data, with the overall goal of supporting economic development in data poor countries. She is also the co-founder of Open Map Lebanon, an open geospatial data community in Lebanon committed to promoting data-driven decision by making data and insights publicly accessible. 
+
+Melda has worked as a consultant for various organizations. Most recently, she completed a project with the UNDP on the socio-economic impact of the Beirut August 4th explosion. As a consultant at the World Bank, she assessed population exposure to flood risk at the sub-national and national level for 189 countries. Melda was also involved with Colouring London, a crowdsourcing project to get data on the urban built environment. Previously, she was also a management consultant at Monitor Deloitte in Dubai, UAE for several years, where she focused on public policy advisory. Melda has a BA in Economics (Wellesley College) an MSc Urban Economic Development (UCL), and an MRes Spatial Data Science and Visualization (UCL).
